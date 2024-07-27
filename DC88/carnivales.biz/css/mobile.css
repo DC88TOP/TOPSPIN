@@ -1,0 +1,46 @@
+@media only screen and (max-width: 991px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrap {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .bg {
+    width: 100%;
+    content: url("../image/M/DC88NEWS.gif")
+  }
+  
+  .btns {
+    position: absolute;
+    width: 52%;
+    top: 39%;
+    left: 7%;
+  }
+
+  .btn-animate {
+    animation: moveInBottom 1.5s ease-out;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+  }
+  
+  .btn1 img {
+    width: 100%;
+  }
+}
